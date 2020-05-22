@@ -83,7 +83,9 @@
               "fontSize": 12,
               "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b9}",
               "backgroundImage" : "C:/Users/userName/Pictures/logos/git.png",
-              "backgroundImageStretchMode" : "uniformToFill"
+              "backgroundImageStretchMode" : "uniform",
+              "backgroundImageAlignment" : "bottomRight",
+              "background" : "#000000"
             }
         ]
     },
