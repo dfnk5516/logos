@@ -57,7 +57,7 @@
                 "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl",
                 "backgroundImageStretchMode" : "uniformToFill",
-                "backgroundImageAlignment" : "right",
+                // "backgroundImageAlignment" : "right",
                 "backgroundImage" : "C:/Users/userName/Pictures/logos/ubuntu.jpg"
             },
             {
