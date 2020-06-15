@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuTerminal\shell\{b453ae62-4e3d-5e58-b989-0a998ec441b9}]
+"Icon"="C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+"MUIVerb"="Git Bash"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuTerminal\shell\{b453ae62-4e3d-5e58-b989-0a998ec441b9}\command]
+@=""%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe" -p "Git Bash" -d "%V.""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuTerminalAdmin\shell\{b453ae62-4e3d-5e58-b989-0a998ec441b9}]
+"Icon"="C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+"MUIVerb"="Git Bash"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuTerminalAdmin\shell\{b453ae62-4e3d-5e58-b989-0a998ec441b9}\command]
+@="wscript.exe "C:\Users\toconet28\AppData\Local\Microsoft\WindowsApps\Cache/helper.vbs" "C:\Users\toconet28\AppData\Local\Microsoft\WindowsApps\wt.exe" "%V." "Git Bash""
